@@ -1,0 +1,21 @@
+
+
+class ID = cs404
+
+student ID Ronald Rojas = "the best"
+
+student ID Reinold Rojas = "the other best"
+
+student ID Bill Money= "fkebgvnti694"
+
+student ID Mary Many = "kb69ycvnje"
+
+student ID Pep Si = "aldktrjio60v8u"
+
+student ID Will Cas= "598t4nvlij"
+
+student ID Rick Rolls = "209nag42la"
+
+pip install git+git://github.com/Clarifai/clarifai-python.git
+export CLARIFAI_APP_ID=5sM33QWpBh0giM8ViBFFBzkWACiSoCjbvHDTMxTO
+export CLARIFAI_APP_SECRET=kSeqYOZj9UVrM4UcIxm_7hp5UK_Ux3wGpy5c-IZT
