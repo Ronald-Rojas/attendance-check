@@ -48,8 +48,8 @@ public class Updateattendence {
 	static DateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.ENGLISH);
 	static MongoClient mongoClient = new MongoClient();
 	static MongoDatabase db = mongoClient.getDatabase("classes");
-	 public static final String ACCOUNT_SID = "AC40af3a9b2dbbeac45780a1ac63a77d5e"; 
-	 public static final String AUTH_TOKEN = "4a2979612b6735faf5c371411aff4088"; 
+	public static final String ACCOUNT_SID = "AC40af3a9b2dbbeac45780a1ac63a77d5e"; 
+	public static final String AUTH_TOKEN = "4a2979612b6735faf5c371411aff4088"; 
 
 	public static void main(String[] args ) throws ParseException, IOException{
 		while(true){
@@ -110,8 +110,8 @@ public class Updateattendence {
 	}
 	public static void updateperson( String input[]) {
 		String classID = input[0];
-		String studentID = input[2];
-		String timestamp = input[3];
+		String studentID = input[1];
+		String timestamp = input[2];
 		MongoClient mongoClient = new MongoClient();
 		db.getCollection(classID).updateOne(new Document("studentID", studentID), 
 				new Document("$set", new Document("timestamp", timestamp)));
