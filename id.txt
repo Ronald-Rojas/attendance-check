@@ -1,0 +1,18 @@
+
+
+class ID = cs404
+
+student ID Ronald Rojas = "the best"
+
+student ID Reinold Rojas = "the other best"
+
+student ID Bill Money= "fkebgvnti694"
+
+student ID Mary Many = "kb69ycvnje"
+
+student ID Pep Si = "aldktrjio60v8u"
+
+student ID Will Cas= "598t4nvlij"
+
+student ID Rick Rolls = "209nag42la"
+
