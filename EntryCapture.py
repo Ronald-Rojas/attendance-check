@@ -63,7 +63,7 @@ currentTime = datetime.time(datetime.datetime.now().hour,datetime.datetime.now()
 while currentTime < classinformation[classIndex][3]:
     time.sleep(0.1)
     if checkDistance > doorDistance +.5 or checkDistance < doorDistance +.5:
-        call(["raspistill -ss .1 -o image.jpeg"])
-
+        call(["raspistill -ss .1 -o students.jpeg"])
+        os.system(EntryTags.py)
 
 GPIO.cleanup()
